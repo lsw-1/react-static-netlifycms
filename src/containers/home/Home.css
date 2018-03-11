@@ -18,7 +18,7 @@
 
 .line-1 {
   width: 0rem;
-  height: 4px;
+  height: 3px;
   background-color: #828282;
   margin-bottom: 10px;
 }
@@ -34,7 +34,3 @@
   background-color: #828282;
   margin-bottom: 10px;
 }
-
-/* .lineDrawing {
-  margin-left: 5%;
-} */
