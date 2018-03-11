@@ -70,7 +70,7 @@ export default {
       },
       {
         path: '/about',
-        component: 'src/containers/About',
+        component: 'src/containers/about/About',
       },
       {
         path: '/blog',
