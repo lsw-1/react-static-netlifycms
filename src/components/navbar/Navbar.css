@@ -1,0 +1,25 @@
+a {
+  text-decoration: none;
+  color: #108db8;
+  font-weight: bold;
+}
+
+nav {
+  padding: 15px;
+  display: flex;
+  width: 100%;
+  background: #171616;
+}
+
+nav a {
+  color: white;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.icon {
+  align-self: auto;
+  color: #ffff;
+  width: 40px;
+  /* background-color: azure; */
+}

@@ -1,0 +1,40 @@
+.container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: #161617;
+  height: 100vh;
+  vertical-align: middle;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 600;
+  padding-left: 10%;
+  margin: 0;
+  color: #828282;
+}
+
+.line-1 {
+  width: 0rem;
+  height: 4px;
+  background-color: #828282;
+  margin-bottom: 10px;
+}
+.line-2 {
+  width: 0rem;
+  height: 3px;
+  background-color: #828282;
+  margin-bottom: 10px;
+}
+.line-3 {
+  width: 0rem;
+  height: 2px;
+  background-color: #828282;
+  margin-bottom: 10px;
+}
+
+/* .lineDrawing {
+  margin-left: 5%;
+} */
