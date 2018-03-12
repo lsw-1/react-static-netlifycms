@@ -10,14 +10,20 @@ nav a {
   font-size: 21px;
   color: #cacaca;
   text-decoration-line: none;
+  transition-property: font-size;
+  transition-duration: 1s;
 }
 nav a:hover {
   font-size: 24px;
 }
 
 .menu {
+  text-decoration-line: none;
+  transition-property: width;
+  transition-duration: 1s;
   margin-top: 5px;
-  width: 30%;
+  width: 0%;
+  opacity: 0;
   display: flex;
   justify-content: space-around;
   text-justify: center;

@@ -15,7 +15,17 @@ export const Navbar = class extends React.Component {
       duration: 2000,
       loop: true,
       direction: 'alternate',
-      delay: 2000,
+    })
+  }
+
+  toggleMenu = async () => {
+    await this.setState({ open: !this.state.open })
+    anime({
+      targets: '.menu',
+      width: 500,
+      opacity: 1,
+      easing: 'easeInExpo',
+      duration: 200,
     })
   }
 
@@ -23,7 +33,7 @@ export const Navbar = class extends React.Component {
     return (
       <nav>
         <svg
-          onClick={() => this.setState({ open: !this.state.open })}
+          onClick={this.toggleMenu}
           width="35"
           height="35"
           viewBox="0 0 60  60"
@@ -45,10 +55,12 @@ export const Navbar = class extends React.Component {
           <defs />
         </svg>
         {this.state.open && (
-          <div className="menu">
+          <div id="test" className="menu">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
-            <Link to="/blog">Blog</Link>
+            <Link to="/skills">Skills</Link>
+            <Link to="/contact">Contact</Link>
+            {/* <Link to="/blog">Blog</Link> */}
           </div>
         )}
       </nav>
